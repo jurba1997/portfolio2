@@ -9,8 +9,30 @@
 h1{
     color: antiquewhite;
     font-size: 5rem;
+    margin: 70px;
 }
 
 a{
     font-size: 3.5rem;
+    padding: 15px;
+}
+
+#container{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#home{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
 }
