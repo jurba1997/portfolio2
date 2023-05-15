@@ -6,6 +6,8 @@
     background-color: rgb(23, 20, 36);
 }
 
+/* Home page elements*/
+
 h1{
     color: antiquewhite;
     font-size: 5rem;
@@ -16,6 +18,8 @@ a{
     font-size: 3.5rem;
     padding: 15px;
 }
+
+/* Divs */
 
 #container{
     width: 80%;
