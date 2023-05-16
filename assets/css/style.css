@@ -9,7 +9,7 @@
 /* Home page elements*/
 
 h1{
-    color: antiquewhite;
+    color: #fff;
     font-size: 5rem;
     margin: 70px;
 }
@@ -19,7 +19,7 @@ a{
     padding: 15px;
 }
 
-/* Divs */
+/* Container div */
 
 #container{
     width: 80%;
@@ -30,6 +30,7 @@ a{
     margin: 0 auto;
 }
 
+/* Inner div */
 #home{
     align-items: center;
     justify-content: center;
@@ -39,4 +40,28 @@ a{
 .column{
     display: flex;
     flex-direction: column;
+}
+
+
+/* Buttons */
+
+.btn{
+    padding: 1.25rem 0;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    background-color: rgb(87, 78, 167);
+    border-radius: 2rem;
+}
+
+.btn:hover{
+    background: #6f8abb;
+    color: #fff;
+    box-shadow: 0 0.4rem 1.4rem 0 #6f8abb;
+    cursor: pointer;
+    transition: 150ms;
+    transform: scale(1.03);
 }
