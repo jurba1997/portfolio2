@@ -9,13 +9,15 @@
 h1{
     color: #fff;
     font-size: 5rem;
-    margin: 60px;
+    margin: 30px 0 20px 0;
 }
 
 a{
     text-decoration: none;
 }
 
+
+/* Outer div */
 #outer{
     width: 80%;
     height: 70%;
@@ -26,10 +28,64 @@ a{
     flex-direction: column;
 }
 
+/* Inner div*/
+
 .inner{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
+.inner h2 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: #fff;
+}
 
+/* Asnwer buttons */
 
+.btn {
+    color: #222;
+    text-align: left;
+    background: #fff;
+    font-size: 25px;
+    border: none;
+    font-weight: 700;
+    width: 100%;
+    padding: 15px;
+    margin: 8px 0px;
+    border-radius: 1rem;
+    
+}
+
+.btn:hover{
+    background: #6f8abb;
+    color: #fff;
+    box-shadow: 0 0.5rem 1.4rem 0 #6f8abb;
+    cursor: pointer;
+    transition: 150ms;
+    transform: scale(1.03);
+}
+
+/* Next button */
+
+#next {
+    background: #6f8abb;
+    color: #fff;
+    font-weight: 600;
+    width: 200px;
+    border: none;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+}
+
+#next:hover {
+    box-shadow: 0 0.5rem 1rem 0 #222;
+    cursor: pointer;
+    transition: 250ms;
+    transform: scale(1.08);
+}
