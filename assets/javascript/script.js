@@ -25,3 +25,14 @@ const questions = [{
 /** Varibale for questions */
 
 const questionEl = document.getElementById("question")
+
+/** Variable to store the score */
+
+let score = 0;
+
+/** Function to set the score to 0 at the start of the game */
+
+function start(){
+    score = 0;
+}
+
