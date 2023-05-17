@@ -20,3 +20,8 @@ const questions = [{
     ]
 },
 ];
+
+
+/** Varibale for questions */
+
+const questionEl = document.getElementById("question")
