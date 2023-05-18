@@ -89,3 +89,13 @@ a{
     transition: 250ms;
     transform: scale(1.08);
 }
+
+/* Correct and Incorrect answers*/
+
+.correct {
+    background-color: rgb(25, 194, 25);
+}
+
+.incorrect {
+    background-color: rgb(221, 53, 53);
+}
