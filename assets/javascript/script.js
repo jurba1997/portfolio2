@@ -36,3 +36,5 @@ function start(){
     score = 0;
 }
 
+/** Function to display questions */
+
