@@ -59,7 +59,6 @@ const questions = [{
     {text: "Bambi", correct:false}
 ]
 }
-
 ];
 
 
@@ -70,3 +69,12 @@ const answerButtons = document.getElementById("buttons")
 const nextButton = document.getElementById("next");
 
 // Variable to store the score
+
+let score = 0;
+
+// Function to set the score to 0 at teh start of the game
+
+function start(){
+    score = 0;
+    nextButton.innerHTML = "Next"
+}
