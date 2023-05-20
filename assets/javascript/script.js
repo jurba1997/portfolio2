@@ -1,4 +1,4 @@
-/** Questions */
+// Questions
 
 const questions = [{
     question: "Which of these movies was directed by Quentin Tarantino?",
@@ -22,19 +22,10 @@ const questions = [{
 ];
 
 
-/** Varibale for questions */
+// Variable for questions, answer buttons and the next button
 
-const questionEl = document.getElementById("question")
+const questionElement = document.getElementById("question")
+const answerButtons = document.getElementById("buttons")
+const nextButton = document.getElementById("next");
 
-/** Variable to store the score */
-
-let score = 0;
-
-/** Function to set the score to 0 at the start of the game */
-
-function start(){
-    score = 0;
-}
-
-/** Function to display questions */
-
+// Variable to store the score
